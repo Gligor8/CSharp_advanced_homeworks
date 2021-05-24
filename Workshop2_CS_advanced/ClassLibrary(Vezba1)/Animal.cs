@@ -5,7 +5,20 @@ namespace ClassLibrary_Vezba1_
     public abstract class Animal
     {
         public string Name { get; set; }
-        public int Age { get; set; }
+        public int Age
+        {
+            get;
+           
+            set
+            {
+                if (Age < 0 || Age > 175)
+                {
+                    Console.WriteLine("Error numbers");
+                    
+                }
+                
+            }
+        }
 
         public Animal(string name, int age)
         {

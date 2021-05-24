@@ -2,7 +2,7 @@
 
 namespace ClassLibrary_Vezba2_
 {
-    public static class Class1
+    public static class ClassOfMethods
     {
         // First Letter of a string
         public static void GetFirstLetter(this string str, string substr)
@@ -32,14 +32,18 @@ namespace ClassLibrary_Vezba2_
 
         // N from a list
 
-        //public static void GetNfromList(List<T> list) where T: BaseEntity
-        //{
+        public static int GetNfromList(List<T> list) where T : BaseEntity
+        {
+            foreach (int N in list)
+            {
+                return list.N[0];
+            }
+        }
+        Console.WriteLine(GetNfromList);
 
-        //}
+        
 
-        //ova ne go resiv
-                            
-                                        
+
 
     }
 }

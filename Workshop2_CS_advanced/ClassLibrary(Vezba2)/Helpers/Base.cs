@@ -6,5 +6,6 @@ namespace ClassLibrary_Vezba2_.Helpers
 {
     class BaseEntity
     {
+        public List<int> list { get; set; }
     }
 }
