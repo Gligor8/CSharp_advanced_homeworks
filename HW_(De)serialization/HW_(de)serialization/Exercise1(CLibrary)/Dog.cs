@@ -7,6 +7,9 @@ namespace Exercise1_CLibrary_
         public string Name { get; set; }
         public int Age { get; set; }
         public string Color { get; set; }
+        public Dog()
+        {
+        }
 
         public Dog(string name, int age, string color)
         {
@@ -15,13 +18,8 @@ namespace Exercise1_CLibrary_
             Color = color;
         }
 
-        public Dog()
-        {
-        }
+        
 
-        public void Createdog()
-        {
-
-        }
+       
     }
 }
