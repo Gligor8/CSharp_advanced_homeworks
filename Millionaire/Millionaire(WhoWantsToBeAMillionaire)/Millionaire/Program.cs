@@ -10,11 +10,29 @@ namespace Millionaire
             Console.WriteLine("============ Who Wants To Be Milionaire ============");
             Console.WriteLine("====================== WELCOME =====================");
 
-            Console.WriteLine("Press Enter to start:");
-            
-            
+            try
+            {
+                while (true)
+                {
+                    Console.WriteLine("Press Enter \n1 to start the game, or \n2 to cancel:");
+                    string optionChoice = Console.ReadLine();
 
-        
+                    if (optionChoice == "1")
+                    {
+
+                    }
+
+                }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+        }
 
             
             #region Questions
@@ -156,7 +174,7 @@ namespace Millionaire
             };
             #endregion
 
-          Console.ReadLine();  
-        }
+          
+        
     }
 }

@@ -11,7 +11,7 @@ namespace ClassLb.Models
 
         public virtual void Start()
         {
-            
+                        
         }
     }
 }
